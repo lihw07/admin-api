@@ -1,0 +1,84 @@
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:02:51"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:02:51"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:02:51"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:02:51"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:02:51"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:03:21"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:03:21"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:03:21"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:03:21"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:03:21"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:13:51"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:13:51"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:13:51"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:13:51"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:13:51"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:16:08"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:16:08"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:16:08"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:16:08"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:16:08"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:16:40"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:16:40"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:16:40"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:16:40"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:16:40"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:22:13"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:22:13"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:22:13"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:22:13"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:22:13"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:25:16"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:25:16"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:25:16"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:25:16"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:25:16"}
+{"level":"panic","msg":"redis is faileddial tcp 192.168.6.111:6379: i/o timeout","time":"2024-10-29 16:27:09"}
+{"level":"info","msg":"redis is faileddial tcp 192.168.6.111:6379: i/o timeout","time":"2024-10-29 16:28:00"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:28:00"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:28:00"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:28:00"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:28:00"}
+{"level":"info","msg":"redis is failed: %sdial tcp 192.168.6.111:6379: i/o timeout","time":"2024-10-29 16:30:36"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:30:36"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:30:36"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:30:36"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:30:36"}
+{"level":"info","msg":"redis is failed: %qdial tcp 192.168.6.111:6379: i/o timeout","time":"2024-10-29 16:32:44"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:32:44"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:32:44"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:32:44"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:32:44"}
+{"level":"info","msg":"redis is failed: %qdial tcp 192.168.6.111:6379: connectex: No connection could be made because the target machine actively refused it.","time":"2024-10-29 16:36:48"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:36:48"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:36:48"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:36:48"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:36:48"}
+{"level":"info","msg":"redis is failed: %qdial tcp 192.168.6.111:6379: i/o timeout","time":"2024-10-29 16:39:38"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:39:38"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:39:38"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:39:38"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:39:38"}
+{"level":"info","msg":"redis config error","time":"2024-10-29 16:40:33"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 16:40:33"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 16:40:33"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 16:40:33"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 16:40:33"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 17:02:41"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 17:02:41"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:02:41"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:02:41"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 17:05:58"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 17:05:58"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:05:58"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:05:58"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 17:07:11"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 17:07:11"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:07:11"}
+{"level":"info","msg":"Signal %s received, shutting down server...interrupt","time":"2024-10-29 17:08:55"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:08:55"}
+{"level":"info","msg":"Shutdown Server ...","time":"2024-10-29 17:10:11"}
+{"level":"info","msg":"Server exiting","time":"2024-10-29 17:10:11"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:10:11"}
+{"level":"info","msg":"Signal %s received, shutting down server...interrupt","time":"2024-10-29 17:13:08"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:13:08"}
