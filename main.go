@@ -1,11 +1,12 @@
 package main
 
 import (
+	"admin-api/api/routers"
 	"admin-api/bootstrap"
 	"admin-api/common/config"
+	_ "admin-api/docs"
 	"admin-api/pkg/log"
 	"admin-api/pkg/util"
-	"admin-api/routers"
 	"context"
 	"flag"
 	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
@@ -30,6 +31,12 @@ func init() {
 	bootstrap.Init(confPath)
 }
 
+// @title 通用后台管理系统
+// @version 1.0
+// @description 后台管理系统API接口文档
+// @securityDefinitions.apikey ApiKeyAuth
+// @in header
+// @name Authorization
 func main() {
 	// 加载日志
 	logger := log.Log()

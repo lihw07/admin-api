@@ -82,3 +82,8 @@
 {"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:10:11"}
 {"level":"info","msg":"Signal %s received, shutting down server...interrupt","time":"2024-10-29 17:13:08"}
 {"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:13:08"}
+{"level":"info","msg":"Listening to ::5212","time":"2024-10-29 17:13:24"}
+{"level":"info","msg":"Signal %s received, shutting down server...interrupt","time":"2024-10-29 17:32:16"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:32:16"}
+{"level":"info","msg":"Listening to %q:5212","time":"2024-10-29 17:32:16"}
+{"level":"error","msg":"Failed to listen to %q: %s:5212http: Server closed","time":"2024-10-29 17:32:16"}
