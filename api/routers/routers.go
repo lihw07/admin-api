@@ -1,7 +1,7 @@
 package routers
 
 import (
-	controllers2 "admin-api/api/routers/controllers"
+	"admin-api/api/routers/controllers"
 	"admin-api/common/config"
 	"admin-api/middleware"
 	"github.com/gin-gonic/gin"
@@ -28,7 +28,36 @@ func InitRouter() *gin.Engine {
 
 // register 路由接口
 func register(router *gin.Engine) {
-	router.GET("/api/captcha", controllers2.Captcha)
+
+	router.GET("/api/captcha", controllers.Captcha)
 	router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
-	router.POST("/api/login", controllers2.Login)
+	router.POST("/api/login", controllers.Login)
+	// jwt鉴权接口
+	jwt := router.Group("/api", middleware.AuthMiddleware())
+	{
+		jwt.POST("/post/add", controllers.CreateSysPost)
+		jwt.GET("/post/info", controllers.GetSysPostById)
+		jwt.PUT("/post/update", controllers.UpdateSysPost)
+		jwt.DELETE("/post/delete", controllers.DeleteSysPostById)
+		jwt.DELETE("/post/batch/delete", controllers.BatchDeleteSysPost)
+		jwt.PUT("/post/updateStatus", controllers.UpdateSysPostStatus)
+		jwt.GET("/post/list", controllers.GetSysPostList)
+		jwt.GET("/post/vo/list", controllers.QuerySysPostVoList)
+		jwt.POST("/upload", controllers.Upload)
+		jwt.GET("/api/menu/vo/list", controllers.QuerySysMenuVoList)
+		jwt.POST("/api/menu/add", controllers.CreateSysMenu)
+		jwt.GET("/api/menu/info", controllers.GetSysMenu)
+		jwt.PUT("/api/menu/update", controllers.UpdateSysMenu)
+		jwt.DELETE("/api/menu/delete", controllers.DeleteSysRoleMenu)
+		jwt.GET("/api/menu/list", controllers.GetSysMenuList)
+		jwt.POST("/api/role/add", controllers.CreateSysRole)
+		jwt.PUT("/api/role/info", controllers.GetSysRoleById)
+		jwt.PUT("/api/role/update", controllers.UpdateSysRole)
+		jwt.DELETE("/api/role/delete", controllers.DeleteSysRoleById)
+		jwt.PUT("/api/role/updateStatus", controllers.UpdateSysRoleStatus)
+		jwt.GET("/api/role/list", controllers.GetSysRoleList)
+		jwt.GET("/api/role/vo/list", controllers.QuerySysRoleVoList)
+		jwt.GET("/api/role/vo/idList", controllers.QueryRoleMenuIdList)
+		jwt.PUT("/api/role/assignPermissions", controllers.AssignPermissions)
+	}
 }
