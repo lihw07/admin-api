@@ -43,5 +43,4 @@ func CaptVerify(id string, capt string) bool {
 	} else {
 		return false
 	}
-
 }
